@@ -1,56 +1,39 @@
-import { Link } from "@nextui-org/link";
-import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code";
-import { button as buttonStyles } from "@nextui-org/theme";
+'use client'
+import Categories from "@/components/Navbar/Categories";
+import ListingTabs from "@/components/Navbar/ListingTabs";
 
-import { siteConfig } from "@/config/site";
-import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
+import NavigationBar from "@/components/Navbar/NavigationBar";
+import { SearchIcon } from "@/components/Navbar/SearchIcon";
+import { Input } from "@nextui-org/react";
+
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-      <div className="inline-block max-w-xl text-center justify-center">
-        <span className={title()}>Make&nbsp;</span>
-        <span className={title({ color: "violet" })}>beautiful&nbsp;</span>
-        <br />
-        <span className={title()}>
-          websites regardless of your design experience.
-        </span>
-        <div className={subtitle({ class: "mt-4" })}>
-          Beautiful, fast and modern React UI library.
+    <>
+      <NavigationBar />
+      <div className="flex flex-col items-center">
+
+        <div className="container flex justify-center h-auto mb-5">
+          <div className="rounded-xl w-[85%] h-40 mt-10 flex flex-col justify-center items-center">
+            <h1 className="mb-5 text-white text-3xl">Who do you wanna outsource?</h1>
+            <Input
+              classNames={{
+                base: "w-[70%] h-12",
+                mainWrapper: "h-full",
+                input: "text-small",
+                inputWrapper: "h-full font-normal text-default-500 bg-white",
+              }}
+              placeholder="Type to search..."
+              size="sm"
+              startContent={<SearchIcon size={18} width={undefined} height={undefined} />}
+              type="search"
+            />
+          </div>
         </div>
+        {/* <Ads /> */}
+        <Categories />
+       <ListingTabs />
       </div>
-
-      <div className="flex gap-3">
-        <Link
-          isExternal
-          className={buttonStyles({
-            color: "primary",
-            radius: "full",
-            variant: "shadow",
-          })}
-          href={siteConfig.links.docs}
-        >
-          Documentation
-        </Link>
-        <Link
-          isExternal
-          className={buttonStyles({ variant: "bordered", radius: "full" })}
-          href={siteConfig.links.github}
-        >
-          <GithubIcon size={20} />
-          GitHub
-        </Link>
-      </div>
-
-      <div className="mt-8">
-        <Snippet hideCopyButton hideSymbol variant="bordered">
-          <span>
-            Get started by editing <Code color="primary">app/page.tsx</Code>
-          </span>
-        </Snippet>
-      </div>
-    </section>
+    </>
   );
 }
