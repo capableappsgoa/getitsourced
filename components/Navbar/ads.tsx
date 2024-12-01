@@ -2,6 +2,7 @@ import {Card, CardHeader, CardBody, CardFooter, Image, Button} from "@nextui-org
 
 export default function Ads() {
   return (
+    <div className="container mx-auto px-4 py-10">
     <div className="max-w-full gap-2 grid grid-cols-12 grid-rows-2 px-8">
     <Card className="col-span-12 sm:col-span-4 h-[300px]">
       <CardHeader className="absolute z-10 top-1 flex-col !items-start">
@@ -86,6 +87,7 @@ export default function Ads() {
         <Button radius="full" size="sm">Get App</Button>
       </CardFooter>
     </Card>
+  </div>
   </div>
   );
 }
