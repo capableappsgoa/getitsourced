@@ -5,3 +5,12 @@
 body{
     background-color: #ffffff !Important;
 }
+
+
+@layer base {
+    :root {
+      --color-primary: #10b981;
+      --color-secondary: 111 114 185;
+      /* ... */
+    }
+  }

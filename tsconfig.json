@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Navbar/AcmeLogo.jsx", "components/Navbar/SearchIcon.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Navbar/AcmeLogo.jsx", "components/Navbar/SearchIcon.jsx", "components/Navbar/CardsTab.tsx"],
   "exclude": ["node_modules"]
 }

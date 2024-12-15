@@ -1,0 +1,163 @@
+{
+    "success": true,
+    "data": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "title": "Full Stack Developer",
+        "category": "Website Developer",
+        "skills": ["JavaScript", "React", "Node.js"],
+        "location": "New York, USA",
+        "hourly_rate": 50,
+        "rating": 4.8,
+        "profile_picture": "https://randomuser.me/api/portraits/men/10.jpg",
+        "cover_image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+        "bio": "Experienced developer with 5+ years in building scalable web applications."
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "title": "Graphic Designer",
+        "category": "Designer",
+        "skills": ["Photoshop", "Illustrator", "Figma"],
+        "location": "London, UK",
+        "hourly_rate": 40,
+        "rating": 4.9,
+        "profile_picture": "https://randomuser.me/api/portraits/women/11.jpg",
+        "cover_image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+        "bio": "Creative designer specializing in event posters and brand visuals."
+      },
+      {
+        "id": 3,
+        "name": "Raj Kumar",
+        "title": "3D Artist",
+        "category": "Designer",
+        "skills": ["Blender", "Maya", "SketchUp"],
+        "location": "Mumbai, India",
+        "hourly_rate": 35,
+        "rating": 4.7,
+        "profile_picture": "https://randomuser.me/api/portraits/men/20.jpg",
+        "cover_image": "https://images.unsplash.com/photo-1581093458795-fd2e72f4f3d0",
+        "bio": "3D visualization expert with a passion for event and architectural designs."
+      },
+      {
+        "id": 4,
+        "name": "Sophia Lee",
+        "title": "Content Writer",
+        "category": "Writer",
+        "skills": ["SEO Writing", "Copywriting", "Blog Writing"],
+        "location": "Toronto, Canada",
+        "hourly_rate": 30,
+        "rating": 4.6,
+        "profile_picture": "https://randomuser.me/api/portraits/women/18.jpg",
+        "cover_image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+        "bio": "Helping brands grow with engaging and high-quality content."
+      },
+      {
+        "id": 5,
+        "name": "Carlos Diaz",
+        "title": "Videographer",
+        "category": "Videographer",
+        "skills": ["Premiere Pro", "After Effects", "Cinematography"],
+        "location": "Barcelona, Spain",
+        "hourly_rate": 55,
+        "rating": 4.8,
+        "profile_picture": "https://randomuser.me/api/portraits/men/30.jpg",
+        "cover_image": "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa",
+        "bio": "Creating stunning videos for events, ads, and social media campaigns."
+      },
+      {
+        "id": 6,
+        "name": "Emma Wilson",
+        "title": "Website Developer",
+        "category": "Website Developer",
+        "skills": ["HTML", "CSS", "WordPress"],
+        "location": "Berlin, Germany",
+        "hourly_rate": 45,
+        "rating": 4.7,
+        "profile_picture": "https://randomuser.me/api/portraits/women/22.jpg",
+        "cover_image": "https://images.unsplash.com/photo-1504164996022-09080787b6b3",
+        "bio": "Expert in creating stunning websites that captivate audiences."
+      },
+      {
+        "id": 7,
+        "name": "Daniel Evans",
+        "title": "Videographer",
+        "category": "Videographer",
+        "skills": ["Videography", "Drone Footage", "Editing"],
+        "location": "Los Angeles, USA",
+        "hourly_rate": 60,
+        "rating": 4.9,
+        "profile_picture": "https://randomuser.me/api/portraits/men/40.jpg",
+        "cover_image": "https://images.unsplash.com/photo-1516382578871-2c55c7a70760",
+        "bio": "Passionate about telling stories through the lens."
+      },
+      {
+        "id": 8,
+        "name": "Ava Brown",
+        "title": "Copywriter",
+        "category": "Writer",
+        "skills": ["Ad Copy", "Brand Messaging", "Social Media"],
+        "location": "Sydney, Australia",
+        "hourly_rate": 35,
+        "rating": 4.5,
+        "profile_picture": "https://randomuser.me/api/portraits/women/33.jpg",
+        "cover_image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+        "bio": "Crafting powerful messages that drive engagement and sales."
+      },
+      {
+        "id": 9,
+        "name": "Liam Parker",
+        "title": "Web Developer",
+        "category": "Website Developer",
+        "skills": ["PHP", "Laravel", "MySQL"],
+        "location": "Dublin, Ireland",
+        "hourly_rate": 40,
+        "rating": 4.7,
+        "profile_picture": "https://randomuser.me/api/portraits/men/25.jpg",
+        "cover_image": "https://images.unsplash.com/photo-1564866657315-9d6c23b14aa0",
+        "bio": "Building dynamic and responsive web applications for businesses."
+      },
+      {
+        "id": 10,
+        "name": "Olivia Martinez",
+        "title": "Graphic Designer",
+        "category": "Designer",
+        "skills": ["Adobe Suite", "UI/UX", "Logo Design"],
+        "location": "Madrid, Spain",
+        "hourly_rate": 38,
+        "rating": 4.8,
+        "profile_picture": "https://randomuser.me/api/portraits/women/19.jpg",
+        "cover_image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac",
+        "bio": "Designing creative and user-friendly visuals for brands."
+      },
+      {
+        "id": 11,
+        "name": "Ethan Harris",
+        "title": "Cinematographer",
+        "category": "Videographer",
+        "skills": ["Camera Operation", "Color Grading", "Film Production"],
+        "location": "Cape Town, South Africa",
+        "hourly_rate": 50,
+        "rating": 4.8,
+        "profile_picture": "https://randomuser.me/api/portraits/men/50.jpg",
+        "cover_image": "https://images.unsplash.com/photo-1504386106331-3e4e71712b38",
+        "bio": "Transforming visions into cinematic experiences."
+      },
+      {
+        "id": 12,
+        "name": "Mia Taylor",
+        "title": "Content Strategist",
+        "category": "Writer",
+        "skills": ["Content Planning", "SEO", "Storytelling"],
+        "location": "Vancouver, Canada",
+        "hourly_rate": 42,
+        "rating": 4.6,
+        "profile_picture": "https://randomuser.me/api/portraits/women/51.jpg",
+        "cover_image": "https://images.unsplash.com/photo-1532619675605-1d7e60c11cd2",
+        "bio": "Developing strategies that connect brands with their audience."
+      }
+      
+    ]
+  }
+  

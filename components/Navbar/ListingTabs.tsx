@@ -6,7 +6,7 @@ import CardsTab from "./CardsTab";
 export default function ListingTabs() {
   return (
     <div className="flex w-[95%] flex-col">
-      <Tabs aria-label="Options"color="primary" variant="bordered">
+      <Tabs aria-label="Options" color="success" classNames={{ tabContent: "group-data-[selected=true]:text-[#f9fafb]" }} variant="bordered">
         <Tab
           key="photos"
           title={
@@ -16,27 +16,31 @@ export default function ListingTabs() {
             </div>
           }
         >
-        <CardsTab />
-      </Tab>
-      <Tab
-        key="music"
-        title={
-          <div className="flex items-center space-x-2">
-            <MusicIcon />
-            <span>Music</span>
-          </div>
-        }
-      />
-      <Tab
-        key="videos"
-        title={
-          <div className="flex items-center space-x-2">
-            <VideoIcon />
-            <span>Videos</span>
-          </div>
-        }
-      />
-    </Tabs>
-  </div >  
+          <CardsTab />
+        </Tab>
+        <Tab
+          key="music"
+          title = {
+            <div className="flex items-center space-x-2 cursor-pointer">
+              <MusicIcon />
+              <span>Music</span>
+            </div>
+          }
+        >
+          <CardsTab />
+        </Tab>
+        <Tab
+          key="videos"
+          title={
+            <div className="flex items-center space-x-2">
+              <VideoIcon />
+              <span>Videos</span>
+            </div>
+          }
+        >
+          <CardsTab />
+        </Tab>
+      </Tabs>
+    </div >
   );
 }
